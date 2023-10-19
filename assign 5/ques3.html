@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Question3</title>
+</head>
+<body>
+<div class="container">
+<form action="#">
+<h3>Personal Information</h3>
+<div class="personal">
+First Name:<input type="text" name="firstName" /><br />
+Last Name:<input type="text" name="lastName" /><br />
+Date of Birth:<div class="date">
+<input type="number" name="day" max="31" />
+<input type="number" name="year" />
+</div>
+<br />
+Gender:<select name="gender">
+<option value="" selected disabled>Choose a gender</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+</div>
+<h3>Account Information</h3>
+<div class="account">
+Email:<input type="email" name="email" />
+<p>(Your email address will be your username)</p>
+Re-type Email:<input type="email" name="reEmail" /><br />
+Password<input type="password" name="password" /><br />
+<p>(Min 8 characters. 1 number,case-sensitive)</p>
+Re-type Password:<input type="password" name="rePassword" /><br />
+Security Questions:
+<select name="security_question">
+<option value="Choose a security question">Choose a security question</option>
+<option value="What is your pet name?">What is your pet name?</option>
+<option value="What is your favourite color?">
+What is your favorite color?
+</option>
+<option value="What is your favourite food?">
+What is your favorite food?
+</option></select
+><br />
+Security Answer:<input type="text" name="security_answer" />
+<p>(Not case-sensitivie)</p>
+</div>
+<h3>Contact Information</h3>
+<div class="contact">
+Address:<input type="text" name="address" /><br />
+City:<input type="text" name="city" /><br />
+State:<input type="text" name="state" /><br />
+Zip Code<input type="text" name="zipCode" /><br />
+Phone:<input type="text" name="phone" />
+<p>No spaces or dashes</p>
+<select name="type">
+<option value="" selected disabled>Select a Phone Type</option>
+<option value="Home">Home</option>
+<option value="Office">Office</option>
+<option value="Mobile">Mobile</option>
+</select>
+</div>
+</form>
+</div>
+</body>
+</html>
